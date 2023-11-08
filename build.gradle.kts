@@ -12,7 +12,7 @@ repositories {
 dependencies {
 
     // MongoDB Java Driver
-    implementation("org.mongodb:mongodb-driver-sync:4.4.0")
+    implementation("org.mongodb:mongodb-driver-sync:4.11.0")
 
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
